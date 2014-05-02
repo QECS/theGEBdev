@@ -14,7 +14,9 @@ ROLL BACK:
 	Say you accidentally deleted a file, and then went and committed your changes.  With ROLL BACK, you can get rid of (all) the changes you made with the latest commit, and go back to the version before.
 BRANCH:
 	If we wanted to split this project in half and go a different way with part of it, we could form a new BRANCH of the repository.
-
+PULL:
+	Say you're working on part of a document, and you don't want anyone else making changes to the old version and committing before you do.  Solution: PULL the document, and then release it with a commit back to the repo.
+	
 	I think that should cover it all.  If you need anything else, just ask.
 
 	-- Logan
