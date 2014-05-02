@@ -1,0 +1,20 @@
+How to use Git: by Logan Power
+
+	Git was originally created for software development, but we will be using it for an entirely different purpose: to maintain a living document (or set of documents).  There are a few basics to using Git, that you may or may not have figured out already.  For the purposes of this excercise, I will assume that you're using GitHub for Windows.  (If not, you're not alone.  I'm using the command line version too.)
+
+REPOSITORY:
+	Repos are the core of Git.  Our documents will be stored in a repository, so that they can be easily kept track of.  Just think of it as a big folder for now.
+CLONE:
+	A true Git repository is a folder on a web server.  To use a Git repo, you have to clone (copy) it in to a folder on your computer.  Once you've done that, you can make changes.
+COMMIT:
+	Once you have made changes to anything, you have to form what is called a commit.  This means that the files you changed will be marked for synchronization with the server.  You also have to provide some insight on what you did to those files, and why you did it.
+SYNC:
+	This is an easy one.  Your commit is synchronized with the web server, so the changes you made are now current, and everyone else can pull them down when THEY sync.  Your changes aren't permanent, though. 
+ROLL BACK:
+	Say you accidentally deleted a file, and then went and committed your changes.  With ROLL BACK, you can get rid of (all) the changes you made with the latest commit, and go back to the version before.
+BRANCH:
+	If we wanted to split this project in half and go a different way with part of it, we could form a new BRANCH of the repository.
+
+	I think that should cover it all.  If you need anything else, just ask.
+
+	-- Logan
